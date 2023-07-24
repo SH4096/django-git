@@ -194,3 +194,5 @@ LOGGING = {
         },
     }
 }
+
+AUTH_USER_MODEL = 'users.User' #替换自带的用户表
