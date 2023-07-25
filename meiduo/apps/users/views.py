@@ -1,7 +1,6 @@
+from apps.users import models
 from django.views import View
 from django.http import JsonResponse
-from apps.users import models
-
 
 class UsernameCountView(View):
     def get(self, request, username):
